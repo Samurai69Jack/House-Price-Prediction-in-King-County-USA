@@ -13,12 +13,12 @@ This project demonstrates an end-to-end data science workflow, including data ex
 
 4. Evaluate models using appropriate performance metrics
 
-## Dataset: King County Housing
-## Target Variable : Price
-## Features include:
-### Structural features: bedrooms, bathrooms, floors, sqft_living, sqft_above, sqft_basement
-### Location features: lat, long, waterfront, view
-### Quality indicators: grade, sqft_living15
+### Dataset: King County Housing
+Target Variable : Price
+### Features include:
+Structural features: bedrooms, bathrooms, floors, sqft_living, sqft_above, sqft_basement
+Location features: lat, long, waterfront, view
+Quality indicators: grade, sqft_living15
 
 The dataset contains missing values, which were handled during preprocessing.
 
@@ -62,7 +62,7 @@ Tuned the regularization parameter (alpha = 0.1)
 Combined Ridge Regression with 2nd-degree polynomial features
 Reduced overfitting while maintaining strong predictive performance
 
-📊 Model Evaluation
+# 📊 Model Evaluation
 
 Used R² score as the primary evaluation metric
 
@@ -74,13 +74,13 @@ Polynomial Ridge regression
 
 The Polynomial Ridge Regression model provided the best balance between bias and variance.
 
-✅ Results & Key Takeaways
+# ✅ Results & Key Takeaways
 House prices are strongly influenced by both size-related and location-based features
 Polynomial feature expansion captures non-linear price behavior
 Ridge regularization improves model stability and generalization
 Pipelines simplify preprocessing and prevent data leakage
 
-🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 Python
 Pandas, NumPy
 Scikit-learn
